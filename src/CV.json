@@ -1,0 +1,66 @@
+{
+  "Experience": [
+    {
+      "name": "S&P Global/IHS Markit",
+      "date": "October 2017 - Present",
+      "role": "Senior Research Analyst",
+      "location": "Houston, TX",
+      "description": [
+        "Global Crude Oil Markets team member focusing on short and long-term crude oil supply/demand analysis and outlook.",
+        "Coauthor of  yearly, quarterly, and monthly reports aimed at demystify ongoing trends in the shifting world of crude oil.",
+        "Specialized in studying market trends in Mexico, Braizil and Venezuela, maintaining data and monitoring political shifts on a monthly basis.",
+        "Variety and depth of research allowed me to develop critical analysis skills along with figuring out quick solutions to data problems."
+      ]
+    },
+    {
+      "name": "University of Houston - Dr. Mark Smith",
+      "date": "May 2015 - May 2017",
+      "role": "Research Assistant",
+      "location": "Houston, TX",
+      "description": [
+        "Supported the investigation of Dr. Mark Smith into cryogenic solubilities of lab-produced tholins, mimicking Titan's surface conditions",
+        "Assisted in the design, machining, assembly, and maintenance of our ultra-high vacuum research apparatus",
+        "Ran NMR spectra on samples and determined the concentration of specific organic chemical bonds",
+        "Results of the investigation supported proposed NMR apparatus for future mission to Titan"
+      ]
+    }
+  ],
+  "Education": [
+    {
+      "university": "University of Houston",
+      "graduation": "May 2017",
+      "location": "Houston, TX",
+      "degree": "B.S. Chemistry",
+      "research project": "",
+      "description": ["Bachelor of Science in Chemistry"]
+    }
+  ],
+  "Project": [{}],
+  "Skills": [
+    {
+      "Languages": [
+        {
+          "language": "English",
+          "proficiency": "Fluent"
+        },
+        {
+          "language": "Spanish",
+          "proficiency": "Fluent"
+        }
+      ]
+    },
+    {
+      "Programming": [
+        "JavaScript",
+        "Node",
+        "Express",
+        "React",
+        "HTML",
+        "CSS",
+        "Github",
+        "Python",
+        "Bash"
+      ]
+    }
+  ]
+}
