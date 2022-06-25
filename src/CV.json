@@ -1,27 +1,27 @@
 {
   "Experience": [
     {
-      "name": "S&P Global/IHS Markit",
+      "company": "S&P Global/IHS Markit",
       "date": "October 2017 - Present",
       "role": "Senior Research Analyst",
       "location": "Houston, TX",
       "description": [
         "Global Crude Oil Markets team member focusing on short and long-term crude oil supply/demand analysis and outlook.",
         "Coauthor of  yearly, quarterly, and monthly reports aimed at demystify ongoing trends in the shifting world of crude oil.",
-        "Specialized in studying market trends in Mexico, Braizil and Venezuela, maintaining data and monitoring political shifts on a monthly basis.",
+        "Specialized in studying market trends in Mexico, Brazil and Venezuela, maintaining data and monitoring shifting political context for oil industry in these countries.",
         "Variety and depth of research allowed me to develop critical analysis skills along with figuring out quick solutions to data problems."
       ]
     },
     {
-      "name": "University of Houston - Dr. Mark Smith",
+      "company": "University of Houston - Dr. Mark Smith",
       "date": "May 2015 - May 2017",
       "role": "Research Assistant",
       "location": "Houston, TX",
       "description": [
-        "Supported the investigation of Dr. Mark Smith into cryogenic solubilities of lab-produced tholins, mimicking Titan's surface conditions",
-        "Assisted in the design, machining, assembly, and maintenance of our ultra-high vacuum research apparatus",
-        "Ran NMR spectra on samples and determined the concentration of specific organic chemical bonds",
-        "Results of the investigation supported proposed NMR apparatus for future mission to Titan"
+        "Supported the investigation of Dr. Mark Smith into cryogenic solubilities of lab-produced tholins, mimicking Titan's surface conditions.",
+        "Assisted in the design, machining, assembly, and maintenance of our ultra-high vacuum research apparatus.",
+        "Collected NMR spectra on samples and determined the concentration of specific organic chemical bonds.",
+        "Results of the investigation supported proposed NMR apparatus for future mission to Titan."
       ]
     }
   ],
@@ -60,6 +60,25 @@
         "Github",
         "Python",
         "Bash"
+      ]
+    }
+  ],
+  "Hobbies/Passions": [
+    {
+      "description": "I consider myself a passionate hobbyist as I always find something new to work on and learn about. Here are some of my favorite"
+    },
+    {
+      "list": [
+        "Motorcycles",
+        "Programming",
+        "Music",
+        "Travelling",
+        "Reading",
+        "Gaming",
+        "Motorsports",
+        "Electronics",
+        "Cooking",
+        "Gardening"
       ]
     }
   ]
