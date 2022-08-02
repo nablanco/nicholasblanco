@@ -2,13 +2,12 @@ import React from "react";
 
 const Education = (data) => {
   const education = data.data;
-  console.log(education);
 
   return (
     <div className="resume-education-div">
       <ul>
         {education.map(
-          ({ university, graduation, degree, research, location }, index) => (
+          ({ university, graduation, degree, location }, index) => (
             <li key={index} className="education-item">
               <div className="education-details">
                 <div className="education-title">

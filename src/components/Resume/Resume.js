@@ -1,13 +1,12 @@
 import React from "react";
 
 // import "./Resume.scss";
-import CVObject from "../../CV.json";
+import CVObject from "./CV.json";
 import Experience from "./Experience";
 import Education from "./Education";
 
 const Resume = () => {
   let cv = CVObject;
-  // console.log(typeof cv.Experience);
 
   return (
     <div id="resume" className="resume-div">

@@ -2,7 +2,6 @@ import React from "react";
 
 const Experience = (data) => {
   const experience = data.data;
-  console.log(experience);
 
   return (
     <div className="resume-experience-div">
