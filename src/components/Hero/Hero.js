@@ -1,11 +1,4 @@
 import React from "react";
-// import {
-//   FaLinkedin,
-//   FaGithub,
-//   FaInstagram,
-//   FaFacebookSquare,
-//   FaSoundcloud,
-// } from "react-icons/fa";
 
 const Hero = () => {
   return (
