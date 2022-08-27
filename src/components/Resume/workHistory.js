@@ -1,42 +1,66 @@
 import React from "react";
 import styled from "styled-components";
-import {
-  StyledExperienceSection,
-  SectionHeader,
-  ExperienceTitle,
-} from "./ResumeContainers";
+
+const StyledResumeSection = styled.div`
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 25px;
+  @media screen and (min-width: 768px) {
+    width: 750px;
+  }
+`;
+const SectionHeader = styled.div`
+  color: #b267e6;
+  font-weight: 700;
+`;
+const ExperienceContainer = styled.li`
+  display: flex;
+  flex-flow: row nowrap;
+  list-style: none;
+  margin-top: 25px;
+`;
+const ExperienceTitle = styled.div`
+  flex-basis: 35%;
+  color: #dcdcaa;
+`;
+const ExperienceDescription = styled.div`
+  flex-basis: 65%;
+`;
+const ExperienceCompany = styled.p``;
+const ExperienceRole = styled.p``;
+const ExperienceDate = styled.p``;
+const ExperienceDescriptionItem = styled.li`
+  margin-bottom: 10px;
+  list-style-type: "> ";
+  list
+`;
+
 const WorkHistory = (data) => {
   const experience = data.data;
-
   return (
-    <StyledExperienceSection>
+    <StyledResumeSection>
       <SectionHeader>Work Experience</SectionHeader>
-      <ul>
-        {experience.map(
-          ({ company, date, role, description, location }, index) => (
-            <li key={index} className="experience-item">
-              <div className="experience-details">
-                <ExperienceTitle>
-                  <p className="experience-company">{company}</p>
-                  <p className="experience-role">{role}</p>
-                  <p className="experience-date">{date}</p>
-                </ExperienceTitle>
-                <div className="experience-description-div">
-                  <div className="experience-description">
-                    <ul>
-                      {description.map((item, index) => (
-                        <li key={index}>{item}</li>
-                      ))}
-                    </ul>
-                  </div>
-                  <p className="experience-description-location">{location}</p>
-                </div>
-              </div>
-            </li>
-          )
-        )}
-      </ul>
-    </StyledExperienceSection>
+      {experience.map(({ company, date, role, description }, index) => (
+        <ExperienceContainer key={index}>
+          <ExperienceTitle>
+            <ExperienceRole>{role}</ExperienceRole>
+            <ExperienceCompany>{company}</ExperienceCompany>
+            <ExperienceDate>{date}</ExperienceDate>
+          </ExperienceTitle>
+          <ExperienceDescription>
+            <ul>
+              {description.map((item, index) => (
+                <ExperienceDescriptionItem key={index}>
+                  {item}
+                </ExperienceDescriptionItem>
+              ))}
+            </ul>
+          </ExperienceDescription>
+        </ExperienceContainer>
+      ))}
+    </StyledResumeSection>
   );
 };
 

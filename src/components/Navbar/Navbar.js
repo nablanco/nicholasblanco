@@ -7,12 +7,11 @@ const StyledNavbar = styled.div`
   flex-flow: row nowrap;
   justify-content: space-between;
   align-items: align;
-  /* position: fixed;
+  position: fixed;
   top: 0;
-  z-index: 999; */
   width: 100%;
   height: 60px;
-  font-size: 32px;
+  font-size: 18px;
   border-bottom: 1px;
   background-color: #292929;
 `;
@@ -22,7 +21,8 @@ const NavName = styled.div`
   justify-content: center;
   align-items: center;
   margin-left: 50px;
-  color: #4ec9b0;
+  color: #9cdcfe;
+  font-weight: 700;
 `;
 
 const NavMenu = styled.div`
@@ -62,11 +62,11 @@ const NavLink = styled.div`
 const Navbar = () => {
   return (
     <StyledNavbar>
-      <NavName>Nicholas Blanco</NavName>
+      <NavName>nicholas.blanco</NavName>
       <NavMenu>
         <NavBurger />
-        <NavLink>Home</NavLink>
-        <NavLink>Projects</NavLink>
+        <NavLink>home</NavLink>
+        <NavLink>projects</NavLink>
       </NavMenu>
     </StyledNavbar>
   );
