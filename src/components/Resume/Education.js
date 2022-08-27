@@ -1,10 +1,16 @@
 import React from "react";
+import {
+  StyledExperienceSection,
+  SectionHeader,
+  ExperienceTitle,
+} from "./ResumeContainers";
 
 const Education = (data) => {
   const education = data.data;
 
   return (
-    <div className="resume-education-div">
+    <StyledExperienceSection>
+      <SectionHeader>Education</SectionHeader>
       <ul>
         {education.map(
           ({ university, graduation, degree, location }, index) => (
@@ -23,7 +29,7 @@ const Education = (data) => {
           )
         )}
       </ul>
-    </div>
+    </StyledExperienceSection>
   );
 };
 

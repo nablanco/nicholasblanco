@@ -1,20 +1,26 @@
 import React from "react";
-
-const Experience = (data) => {
+import styled from "styled-components";
+import {
+  StyledExperienceSection,
+  SectionHeader,
+  ExperienceTitle,
+} from "./ResumeContainers";
+const WorkHistory = (data) => {
   const experience = data.data;
 
   return (
-    <div className="resume-experience-div">
+    <StyledExperienceSection>
+      <SectionHeader>Work Experience</SectionHeader>
       <ul>
         {experience.map(
           ({ company, date, role, description, location }, index) => (
             <li key={index} className="experience-item">
               <div className="experience-details">
-                <div className="experience-title">
+                <ExperienceTitle>
                   <p className="experience-company">{company}</p>
                   <p className="experience-role">{role}</p>
                   <p className="experience-date">{date}</p>
-                </div>
+                </ExperienceTitle>
                 <div className="experience-description-div">
                   <div className="experience-description">
                     <ul>
@@ -30,8 +36,8 @@ const Experience = (data) => {
           )
         )}
       </ul>
-    </div>
+    </StyledExperienceSection>
   );
 };
 
-export default Experience;
+export default WorkHistory;

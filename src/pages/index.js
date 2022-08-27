@@ -13,8 +13,8 @@ const GlobalStyle = createGlobalStyle`
 body {
   width: 100%;
   position: relative;
-  background-color: #131518;
-  color: hsl(217, 12%, 63%);
+  background-color: #1e1e1e;
+  color: #9CDCFE;
   font-family: 'Overpass', sans-serif;
 }
 `;
