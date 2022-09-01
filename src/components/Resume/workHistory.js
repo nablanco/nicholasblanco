@@ -13,7 +13,8 @@ const StyledResumeSection = styled.div`
 `;
 const SectionHeader = styled.div`
   color: #b267e6;
-  font-weight: 700;
+  font-size: 20px;
+  font-weight: 400;
 `;
 const ExperienceContainer = styled.li`
   display: flex;
@@ -23,7 +24,7 @@ const ExperienceContainer = styled.li`
 `;
 const ExperienceTitle = styled.div`
   flex-basis: 35%;
-  color: #dcdcaa;
+  color: #ce9178;
 `;
 const ExperienceDescription = styled.div`
   flex-basis: 65%;
@@ -34,7 +35,6 @@ const ExperienceDate = styled.p``;
 const ExperienceDescriptionItem = styled.li`
   margin-bottom: 10px;
   list-style-type: "> ";
-  list
 `;
 
 const WorkHistory = (data) => {

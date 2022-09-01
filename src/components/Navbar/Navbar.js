@@ -10,6 +10,7 @@ const StyledNavbar = styled.div`
   position: fixed;
   top: 0;
   width: 100%;
+  z-index: 999;
   height: 60px;
   font-size: 18px;
   border-bottom: 1px;
@@ -20,7 +21,7 @@ const NavName = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 50px;
+  margin-left: 30px;
   color: #9cdcfe;
   font-weight: 700;
 `;
@@ -31,7 +32,7 @@ const NavMenu = styled.div`
   justify-self: flex-end;
   justify-content: space-around;
   align-items: center;
-  padding-right: 50px;
+  padding-right: 30px;
 `;
 
 const NavBurger = styled(FaBars)`

@@ -9,12 +9,15 @@ const HeroContainer = styled.div`
   align-items: center;
   width: auto;
   text-align: center;
-  margin: 100px 0px 40px 0px;
+  margin: 90px 0px 40px 0px;
 `;
 const HeroText = styled.div`
-  width: 550px;
   text-align: center;
-  margin-bottom: 10px;
+  width: 268px;
+  margin-bottom: 25px;
+  @media screen and (min-wdith: 768px) {
+    width: 550px;
+  }
 `;
 
 const HeroIconsContainer = styled.div`
@@ -31,18 +34,18 @@ const Hero = () => {
   return (
     <HeroContainer>
       <HeroText>
-        Welcome! I am an aspiring developer interested in all aspects of web
-        development. Feel free to reach out and maybe we can work together!
+        Welcome! I am a passionate web developer looking for new opportunities.
+        Feel free to reach out and maybe we can work together!
       </HeroText>
       <HeroIconsContainer>
-        <Icon href="https://www.linkedin.com/in/nicholas-adam-blanco/">
-          <FaLinkedin size={30} color="white" />
-        </Icon>
         <Icon href="https://github.com/nablanco">
-          <FaGithub size={30} color="white" />
+          <FaGithub size={30} color="#ee9d28" />
+        </Icon>
+        <Icon href="https://www.linkedin.com/in/nicholas-adam-blanco/">
+          <FaLinkedin size={30} color="#ee9d28" />
         </Icon>
         <Icon href="https://www.instagram.com/nickbe92/">
-          <FaInstagram size={30} color="white" />
+          <FaInstagram size={30} color="#ee9d28" />
         </Icon>
       </HeroIconsContainer>
     </HeroContainer>
