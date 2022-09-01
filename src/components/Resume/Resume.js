@@ -1,29 +1,28 @@
 import React from "react";
+import styled from "styled-components";
 
-// import "./Resume.scss";
 import CVObject from "./CV.json";
-import Experience from "./Experience";
-import Education from "./Education";
+import WorkHistory from "./WorkHistory";
+// import Education from "./Education";
+
+const StyledResume = styled.div`
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+`;
+
+const StyledResumeSeparator = styled.div``;
 
 const Resume = () => {
   let cv = CVObject;
 
   return (
-    <div id="resume" className="resume-div">
-      <div className="resume-separator"></div>
-
-      <div className="resume-header"> Experience </div>
-
-      <Experience data={cv.Experience} />
-
-      <div className="resume-separator"></div>
-
-      <div className="resume-header">Education</div>
-
-      <Education data={cv.Education} />
-
-      <div className="resume-separator"></div>
-    </div>
+    <StyledResume>
+      <WorkHistory data={cv["Work-History"]} />
+      <StyledResumeSeparator />
+      {/* <Education data={cv.Education} /> */}
+      <StyledResumeSeparator />
+    </StyledResume>
   );
 };
 
