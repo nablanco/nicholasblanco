@@ -58,7 +58,7 @@ const Projects = () => {
       <SectionHeader>Projects</SectionHeader>
       {projects.map((project, index) => {
         return (
-          <ProjectLink key={index} href={project.ghpages}>
+          <ProjectLink key={index} href={project.link}>
             <ProjectFigure>
               <ProjectImageContainer>
                 <ProjectImage
