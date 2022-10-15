@@ -2,7 +2,6 @@ import React from "react";
 import { createGlobalStyle } from "styled-components";
 
 import Hero from "../components/Hero/Hero";
-import Resume from "../components/Resume/Resume";
 import Navbar from "../components/Navbar/Navbar";
 import Projects from "../components/Projects/Projects";
 
@@ -40,7 +39,6 @@ const IndexPage = () => {
         <Navbar />
         <Hero />
         <Projects />
-        {/* <Resume /> */}
       </div>
     </main>
   );

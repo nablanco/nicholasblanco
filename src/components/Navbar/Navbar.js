@@ -65,9 +65,9 @@ const Navbar = () => {
     <StyledNavbar>
       <NavName>nicholas.blanco</NavName>
       <NavMenu>
-        <NavBurger />
+        {/* <NavBurger />
         <NavLink>home</NavLink>
-        <NavLink>projects</NavLink>
+        <NavLink>projects</NavLink> */}
       </NavMenu>
     </StyledNavbar>
   );
