@@ -92,7 +92,12 @@ const Projects = () => {
       <StyledProjectsContainer>
         {projects.map((project, index) => {
           return (
-            <ProjectLink key={index} href={project.ghpages} target="_blank">
+            <ProjectLink
+              key={index}
+              href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <ProjectFigure>
                 <ProjectImageContainer>
                   <ProjectImage
