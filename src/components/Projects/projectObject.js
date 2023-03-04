@@ -3,8 +3,15 @@ import FAQAccordionImg from "./projectscreenshots/FAQ-accordion-card.png";
 import QRCodeImg from "./projectscreenshots/QR-code-component.png";
 import productPreviewImg from "./projectscreenshots/product-preview-card.png";
 import spaceTourismImg from "./projectscreenshots/space-tourism.png";
+import markdownImg from "./projectscreenshots/Markdown-editor.png";
 
 const projects = [
+  {
+    name: "In-Browser Markdown Editor",
+    screenshot: markdownImg,
+    link: "https://nablanco.github.io/browser-markdown-editor/",
+    ghrepo: "https://github.com/nablanco/browser-markdown-editor",
+  },
   {
     name: "Space Tourism Website",
     screenshot: spaceTourismImg,
