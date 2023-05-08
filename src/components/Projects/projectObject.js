@@ -4,6 +4,7 @@ import QRCodeImg from "./projectscreenshots/QR-code-component.png";
 import productPreviewImg from "./projectscreenshots/product-preview-card.png";
 import spaceTourismImg from "./projectscreenshots/space-tourism.png";
 import markdownImg from "./projectscreenshots/Markdown-editor.png";
+import insureImg from "./projectscreenshots/Markdown-editor.png";
 
 const projects = [
   {
@@ -17,6 +18,12 @@ const projects = [
     screenshot: spaceTourismImg,
     link: "https://lively-pixie-fa8b8b.netlify.app/home",
     ghrepo: "https://github.com/nablanco/space-tourism",
+  },
+  {
+    name: "Insure Landing Page",
+    screenshot: insureImg,
+    link: "https://nablanco.github.io/insure-landing-page/",
+    ghrepo: "https://github.com/nablanco/insure-landing-page",
   },
   {
     name: "Interactive rating component",
