@@ -4,7 +4,7 @@ import QRCodeImg from "./projectscreenshots/QR-code-component.png";
 import productPreviewImg from "./projectscreenshots/product-preview-card.png";
 import spaceTourismImg from "./projectscreenshots/space-tourism.png";
 import markdownImg from "./projectscreenshots/Markdown-editor.png";
-import insureImg from "./projectscreenshots/Markdown-editor.png";
+import insureImg from "./projectscreenshots/insure-landing-page.png";
 
 const projects = [
   {
