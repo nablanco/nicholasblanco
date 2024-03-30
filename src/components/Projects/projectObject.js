@@ -1,10 +1,9 @@
 import interactiveRatingImg from "./projectscreenshots/interactive-rating.png";
 import FAQAccordionImg from "./projectscreenshots/FAQ-accordion-card.png";
-import QRCodeImg from "./projectscreenshots/QR-code-component.png";
-import productPreviewImg from "./projectscreenshots/product-preview-card.png";
 import spaceTourismImg from "./projectscreenshots/space-tourism.png";
 import markdownImg from "./projectscreenshots/Markdown-editor.png";
 import insureImg from "./projectscreenshots/insure-landing-page.png";
+import dictionaryAppImg from "./projectscreenshots/dictionary-web-app.png";
 
 const projects = [
   {
@@ -12,6 +11,12 @@ const projects = [
     screenshot: markdownImg,
     link: "https://nablanco.github.io/browser-markdown-editor/",
     ghrepo: "https://github.com/nablanco/browser-markdown-editor",
+  },
+  {
+    name: "Dictionary Web App",
+    screenshot: dictionaryAppImg,
+    link: "https://nablanco.github.io/dictionary-web-app/",
+    ghrepo: "https://github.com/nablanco/dictionary-web-app",
   },
   {
     name: "Space Tourism Website",
@@ -36,18 +41,6 @@ const projects = [
     screenshot: FAQAccordionImg,
     link: "https://nablanco.github.io/FAQ-accordion-card/pages/index.html",
     ghrepo: "https://github.com/nablanco/FAQ-accordion-card",
-  },
-  {
-    name: "QR code component",
-    screenshot: QRCodeImg,
-    link: "https://nablanco.github.io/QR-code-component/",
-    ghrepo: "https://github.com/nablanco/QR-code-component",
-  },
-  {
-    name: "Product preview card",
-    screenshot: productPreviewImg,
-    link: "https://nablanco.github.io/product-preview-card/pages/index.html",
-    ghrepo: "https://github.com/nablanco/product-preview-card",
   },
 ];
 
