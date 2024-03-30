@@ -13,16 +13,16 @@ const projects = [
     ghrepo: "https://github.com/nablanco/browser-markdown-editor",
   },
   {
-    name: "Dictionary Web App",
-    screenshot: dictionaryAppImg,
-    link: "https://nablanco.github.io/dictionary-web-app/",
-    ghrepo: "https://github.com/nablanco/dictionary-web-app",
-  },
-  {
     name: "Space Tourism Website",
     screenshot: spaceTourismImg,
     link: "https://lively-pixie-fa8b8b.netlify.app/home",
     ghrepo: "https://github.com/nablanco/space-tourism",
+  },
+  {
+    name: "Dictionary Web App",
+    screenshot: dictionaryAppImg,
+    link: "https://nablanco.github.io/dictionary-web-app/",
+    ghrepo: "https://github.com/nablanco/dictionary-web-app",
   },
   {
     name: "Insure Landing Page",
